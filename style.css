@@ -4,10 +4,10 @@
 }
 
 body {
-background: rgb(198, 243, 198);
+  background: rgb(198, 243, 198);
 }
 
-header{
+header, footer {
   background: rgb(3, 179, 135);
   padding: 20px;
   text-align: center;
@@ -23,11 +23,17 @@ img {
   margin-top: 70px;
 }
 
-.cards p{
+.imgs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cards p {
   margin-bottom: 10px;
 }
 
-.Total{
+.Total {
   padding: 20px;
 }
 
@@ -43,11 +49,11 @@ img {
     width: 100%;
   }
 
-  .Total{
+  .Total {
     display: block;
   }
 
-  .cards{
+  .cards {
     width: 100%;
   }
 }
